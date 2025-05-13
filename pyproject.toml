@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "undetected-chromedriver"
+version = "0.1"
+description = "Selenium wrapper not triggered by detection services"
+authors = [{ name = "UltrafunkAmsterdam", email = "info@blackhat-security.nl" }]
+dependencies = [
+    "selenium",
+    "requests",
+    "websockets"
+]
+readme = "README.md"
+license = { text = "GPL-3.0" }
