@@ -183,7 +183,7 @@ def test():
     collector_stop = threading.Event()
     collector(driver, collector_stop, on_event)
 
-    driver.get("https://nowsecure.nl")
+    # driver.get("https://nowsecure.nl")
 
     time.sleep(10)
 
